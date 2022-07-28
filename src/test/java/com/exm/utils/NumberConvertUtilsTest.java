@@ -48,10 +48,10 @@ public class NumberConvertUtilsTest {
         String roman20 = NumberConvertUtils.integerToRoman(20);
         assertTrue(roman20.equals("XX"));
         String roman23 = NumberConvertUtils.integerToRoman(23);
-        assertTrue(roman23.equals("XIII"));
+        assertTrue(roman23.equals("XXIII"));
 
         String roman54 = NumberConvertUtils.integerToRoman(54);
-        assertTrue(roman23.equals("LIV"));
+        assertTrue(roman54.equals("LIV"));
         String roman55 = NumberConvertUtils.integerToRoman(55);
         assertTrue(roman55.equals("LV"));
         String roman58 = NumberConvertUtils.integerToRoman(58);
@@ -61,15 +61,12 @@ public class NumberConvertUtilsTest {
         String roman60 = NumberConvertUtils.integerToRoman(60);
         assertTrue(roman60.equals("LX"));
         String roman64 = NumberConvertUtils.integerToRoman(64);
-        assertTrue(roman64.equals("LIV"));
+        assertTrue(roman64.equals("LXIV"));
         String roman80 = NumberConvertUtils.integerToRoman(80);
         assertTrue(roman80.equals("LXXX"));
         String roman90 = NumberConvertUtils.integerToRoman(90);
-        assertTrue(roman80.equals("XC"));
+        assertTrue(roman90.equals("XC"));
         String roman99 = NumberConvertUtils.integerToRoman(99);
-        assertTrue(roman80.equals("XCIX"));
-
-
-
+        assertTrue(roman99.equals("XCIX"));
     }
 }
