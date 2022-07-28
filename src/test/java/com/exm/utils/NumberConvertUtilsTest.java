@@ -1,8 +1,10 @@
 package com.exm.utils;
 
+import org.junit.jupiter.api.Test;
+
 public class NumberConvertUtilsTest {
 
-
+    @Test
     public void integerToRomanOneDigitTest() {
         NumberConvertUtils.integerToRoman(1);
         NumberConvertUtils.integerToRoman(2);
