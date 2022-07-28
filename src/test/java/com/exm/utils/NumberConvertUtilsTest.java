@@ -69,4 +69,41 @@ public class NumberConvertUtilsTest {
         String roman99 = NumberConvertUtils.integerToRoman(99);
         assertTrue(roman99.equals("XCIX"));
     }
+
+    @Test
+    public void integerToRomanThreeDigitTest() {
+        String roman100 = NumberConvertUtils.integerToRoman(100);
+        assertTrue(roman100.equals("C"));
+        String roman110 = NumberConvertUtils.integerToRoman(110);
+        assertTrue(roman110.equals("CX"));
+        String roman144 = NumberConvertUtils.integerToRoman(144);
+        assertTrue(roman144.equals("CXCIV"));
+        String roman155 = NumberConvertUtils.integerToRoman(155);
+        assertTrue(roman155.equals("CLV"));
+        String roman160 = NumberConvertUtils.integerToRoman(160);
+        assertTrue(roman160.equals("CLX"));
+        String roman179 = NumberConvertUtils.integerToRoman(179);
+        assertTrue(roman179.equals("CLXXIX"));
+        String roman199 = NumberConvertUtils.integerToRoman(199);
+        assertTrue(roman199.equals("CIC"));
+        String roman200 = NumberConvertUtils.integerToRoman(200);
+        assertTrue(roman200.equals("CC"));
+        String roman230 = NumberConvertUtils.integerToRoman(230);
+        assertTrue(roman230.equals("CCXXX"));
+
+        String roman542 = NumberConvertUtils.integerToRoman(542);
+        assertTrue(roman542.equals("DIVII"));
+
+        String roman607 = NumberConvertUtils.integerToRoman(607);
+        assertTrue(roman607.equals("DCVII"));
+        String roman609 = NumberConvertUtils.integerToRoman(609);
+        assertTrue(roman609.equals("DCIX"));
+        String roman877 = NumberConvertUtils.integerToRoman(877);
+        assertTrue(roman877.equals("DCCCLXXVII"));
+        String roman909 = NumberConvertUtils.integerToRoman(909);
+        assertTrue(roman909.equals("CMIX"));
+        String roman999 = NumberConvertUtils.integerToRoman(999);
+        assertTrue(roman999.equals("CMXCIX"));
+    }
+
 }
