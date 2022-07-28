@@ -21,9 +21,9 @@ public class NumberConvertUtilsTest {
         String roman6 = NumberConvertUtils.integerToRoman(6);
         assertTrue(roman6.equals("VI"));
         String roman7 = NumberConvertUtils.integerToRoman(7);
-        assertTrue(roman7.equals("VI"));
+        assertTrue(roman7.equals("VII"));
         String roman8 = NumberConvertUtils.integerToRoman(8);
-        assertTrue(roman8.equals("VI"));
+        assertTrue(roman8.equals("VIII"));
         String roman9 = NumberConvertUtils.integerToRoman(9);
         assertTrue(roman9.equals("IX"));
     }
