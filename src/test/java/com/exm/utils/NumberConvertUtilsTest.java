@@ -111,7 +111,7 @@ public class NumberConvertUtilsTest {
         String roman1000 = NumberConvertUtils.integerToRoman(1000);
         assertTrue(roman1000.equals("M"));
         String roman1105 = NumberConvertUtils.integerToRoman(1105);
-        assertTrue(roman1105.equals("MCIV"));
+        assertTrue(roman1105.equals("MCV"));
         String roman1449 = NumberConvertUtils.integerToRoman(1449);
         assertTrue(roman1449.equals("MCDXLIX"));
         String roman1554 = NumberConvertUtils.integerToRoman(1554);
