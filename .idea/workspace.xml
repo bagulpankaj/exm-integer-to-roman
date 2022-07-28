@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="387c3b84-868b-4f95-a60e-6163324a6348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/exm/utils/NumberConvertUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exm/utils/NumberConvertUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exm/utils/NumberConvertUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exm/utils/NumberConvertUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/exm/utils/NumberConvertUtilsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -34,8 +36,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/exm/utils/NumberConvertUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="155">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exm/utils/NumberConvertUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -56,6 +70,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/exm/utils/NumberConvertUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exm/utils/NumberConvertUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exm/utils/NumberConvertUtilsTest.java" />
       </list>
     </option>
@@ -65,13 +81,6 @@
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -109,6 +118,21 @@
               <item name="exm-integer-to-roman" type="b2602c69:ProjectViewProjectNode" />
               <item name="exm-integer-to-roman" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exm-integer-to-roman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exm-integer-to-roman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exm-integer-to-roman" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exm-integer-to-roman" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -133,6 +157,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -141,6 +166,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.exm.utils" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.exm.utils" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -154,6 +187,79 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.NumberConvertUtilsTest.integerToRomanThreeDigitTest">
+    <configuration name="NumberConvertUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exm-integer-to-roman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exm.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exm.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.exm.utils.NumberConvertUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberConvertUtilsTest.integerToRomanOneDigitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exm-integer-to-roman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exm.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exm.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.exm.utils.NumberConvertUtilsTest" />
+      <option name="METHOD_NAME" value="integerToRomanOneDigitTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberConvertUtilsTest.integerToRomanThreeDigitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exm-integer-to-roman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exm.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exm.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.exm.utils.NumberConvertUtilsTest" />
+      <option name="METHOD_NAME" value="integerToRomanThreeDigitTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberConvertUtilsTest.integerToRomanTwoDigitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exm-integer-to-roman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exm.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exm.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.exm.utils.NumberConvertUtilsTest" />
+      <option name="METHOD_NAME" value="integerToRomanTwoDigitTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NumberConvertUtilsTest.integerToRomanThreeDigitTest" />
+        <item itemvalue="JUnit.NumberConvertUtilsTest" />
+        <item itemvalue="JUnit.NumberConvertUtilsTest.integerToRomanTwoDigitTest" />
+        <item itemvalue="JUnit.NumberConvertUtilsTest.integerToRomanOneDigitTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -164,12 +270,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659026803223</updated>
-      <workItem from="1659026809616" duration="1067000" />
+      <workItem from="1659026809616" duration="6628000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="NumberConvertUtilsTest_integerToRomanTwoDigitTest - 2022.07.28 at 21h 38m 27s.xml">
+      <configuration name="NumberConvertUtilsTest.integerToRomanTwoDigitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberConvertUtilsTest_integerToRomanTwoDigitTest - 2022.07.28 at 21h 41m 39s.xml">
+      <configuration name="NumberConvertUtilsTest.integerToRomanTwoDigitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberConvertUtilsTest_integerToRomanTwoDigitTest - 2022.07.28 at 21h 41m 57s.xml">
+      <configuration name="NumberConvertUtilsTest.integerToRomanTwoDigitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberConvertUtilsTest_integerToRomanTwoDigitTest - 2022.07.28 at 21h 42m 14s.xml">
+      <configuration name="NumberConvertUtilsTest.integerToRomanTwoDigitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberConvertUtilsTest_integerToRomanTwoDigitTest - 2022.07.28 at 21h 42m 27s.xml">
+      <configuration name="NumberConvertUtilsTest.integerToRomanTwoDigitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberConvertUtilsTest_integerToRomanThreeDigitTest - 2022.07.28 at 22h 07m 48s.xml">
+      <configuration name="NumberConvertUtilsTest.integerToRomanThreeDigitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberConvertUtilsTest - 2022.07.28 at 22h 10m 39s.xml">
+      <configuration name="NumberConvertUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberConvertUtilsTest - 2022.07.28 at 22h 11m 29s.xml">
+      <configuration name="NumberConvertUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberConvertUtilsTest_integerToRomanThreeDigitTest - 2022.07.28 at 22h 12m 17s.xml">
+      <configuration name="NumberConvertUtilsTest.integerToRomanThreeDigitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberConvertUtilsTest_integerToRomanThreeDigitTest - 2022.07.28 at 22h 15m 29s.xml">
+      <configuration name="NumberConvertUtilsTest.integerToRomanThreeDigitTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1067000" />
+    <option name="totallyTimeSpent" value="6628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="94" width="1245" height="643" extended-state="0" />
@@ -182,14 +320,15 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24937657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32844037" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32844037" />
+      <window_info anchor="bottom" id="Terminal" weight="0.4385321" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32844037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -208,21 +347,52 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/exm/utils/NumberConvertUtils.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>number % 10</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exm/utils/NumberConvertUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/exm/utils/NumberConvertUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="155">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
