@@ -106,4 +106,35 @@ public class NumberConvertUtilsTest {
         assertTrue(roman999.equals("CMXCIX"));
     }
 
+    @Test
+    public void integerToRomanFourUpto3000DigitTest() {
+        String roman1000 = NumberConvertUtils.integerToRoman(1000);
+        assertTrue(roman1000.equals("M"));
+        String roman1105 = NumberConvertUtils.integerToRoman(1105);
+        assertTrue(roman1105.equals("MCIV"));
+        String roman1449 = NumberConvertUtils.integerToRoman(1449);
+        assertTrue(roman1449.equals("MCDXLIX"));
+        String roman1554 = NumberConvertUtils.integerToRoman(1554);
+        assertTrue(roman1554.equals("MDLIV"));
+        String roman1600 = NumberConvertUtils.integerToRoman(1600);
+        assertTrue(roman1600.equals("MDC"));
+        String roman1799 = NumberConvertUtils.integerToRoman(1799);
+        assertTrue(roman1799.equals("MDCCXCIX"));
+        String roman1994 = NumberConvertUtils.integerToRoman(1994);
+        assertTrue(roman1994.equals("MCMXCIV"));
+        String roman2000 = NumberConvertUtils.integerToRoman(2000);
+        assertTrue(roman2000.equals("MM"));
+        String roman2346 = NumberConvertUtils.integerToRoman(2346);
+        assertTrue(roman2346.equals("MMCCCXLVI"));
+        String roman2949 = NumberConvertUtils.integerToRoman(2949);
+        assertTrue(roman2949.equals("MMCMXLIX"));
+
+        String roman3000 = NumberConvertUtils.integerToRoman(3000);
+        assertTrue(roman3000.equals("MMM"));
+
+
+    }
+
+
+
 }
